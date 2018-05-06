@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SNDBManager"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Database management, temporarily based on FMDB."
 
   # This description is used to generate tags and improve search results.

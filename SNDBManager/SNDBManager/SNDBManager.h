@@ -16,8 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class FMDatabase;
-@class FMResultSet;
+#import <FMDB.h>
 
 @interface SNDBManager : NSObject
 

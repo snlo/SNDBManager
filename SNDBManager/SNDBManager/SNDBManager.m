@@ -8,8 +8,6 @@
 
 #import "SNDBManager.h"
 
-#import "FMDB.h"
-
 @implementation SNDBManager
 
 //打开数据库，创建一张表
