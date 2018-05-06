@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "SNDBManager.h"
+
 @interface ViewController ()
 
 @end
