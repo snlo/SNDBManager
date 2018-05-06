@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB000D1209F2E86003E8AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000D0209F2E86003E8AF8 /* AppDelegate.m */; };
+		5EB000D4209F2E86003E8AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000D3209F2E86003E8AF8 /* ViewController.m */; };
+		5EB000D7209F2E86003E8AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB000D5209F2E86003E8AF8 /* Main.storyboard */; };
+		5EB000D9209F2E88003E8AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB000D8209F2E88003E8AF8 /* Assets.xcassets */; };
+		5EB000DC209F2E88003E8AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB000DA209F2E88003E8AF8 /* LaunchScreen.storyboard */; };
+		5EB000DF209F2E88003E8AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000DE209F2E88003E8AF8 /* main.m */; };
+		5EB000E9209F2E88003E8AF8 /* SNDBManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000E8209F2E88003E8AF8 /* SNDBManagerTests.m */; };
+		5EB000F4209F2E88003E8AF8 /* SNDBManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000F3209F2E88003E8AF8 /* SNDBManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB000E5209F2E88003E8AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB000C4209F2E86003E8AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB000CB209F2E86003E8AF8;
+			remoteInfo = SNDBManager;
+		};
+		5EB000F0209F2E88003E8AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB000C4209F2E86003E8AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB000CB209F2E86003E8AF8;
+			remoteInfo = SNDBManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EB000CC209F2E86003E8AF8 /* SNDBManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNDBManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB000CF209F2E86003E8AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EB000D0209F2E86003E8AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EB000D2209F2E86003E8AF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EB000D3209F2E86003E8AF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EB000D6209F2E86003E8AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EB000D8209F2E88003E8AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EB000DB209F2E88003E8AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EB000DD209F2E88003E8AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB000DE209F2E88003E8AF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EB000E4209F2E88003E8AF8 /* SNDBManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNDBManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB000E8209F2E88003E8AF8 /* SNDBManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNDBManagerTests.m; sourceTree = "<group>"; };
+		5EB000EA209F2E88003E8AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB000EF209F2E88003E8AF8 /* SNDBManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNDBManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB000F3209F2E88003E8AF8 /* SNDBManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNDBManagerUITests.m; sourceTree = "<group>"; };
+		5EB000F5209F2E88003E8AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB000C9209F2E86003E8AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB000E1209F2E88003E8AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB000EC209F2E88003E8AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB000C3209F2E86003E8AF8 = {
+			isa = PBXGroup;
+			children = (
+				5EB000CE209F2E86003E8AF8 /* SNDBManager */,
+				5EB000E7209F2E88003E8AF8 /* SNDBManagerTests */,
+				5EB000F2209F2E88003E8AF8 /* SNDBManagerUITests */,
+				5EB000CD209F2E86003E8AF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB000CD209F2E86003E8AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB000CC209F2E86003E8AF8 /* SNDBManager.app */,
+				5EB000E4209F2E88003E8AF8 /* SNDBManagerTests.xctest */,
+				5EB000EF209F2E88003E8AF8 /* SNDBManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB000CE209F2E86003E8AF8 /* SNDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EB000CF209F2E86003E8AF8 /* AppDelegate.h */,
+				5EB000D0209F2E86003E8AF8 /* AppDelegate.m */,
+				5EB000D2209F2E86003E8AF8 /* ViewController.h */,
+				5EB000D3209F2E86003E8AF8 /* ViewController.m */,
+				5EB000D5209F2E86003E8AF8 /* Main.storyboard */,
+				5EB000D8209F2E88003E8AF8 /* Assets.xcassets */,
+				5EB000DA209F2E88003E8AF8 /* LaunchScreen.storyboard */,
+				5EB000DD209F2E88003E8AF8 /* Info.plist */,
+				5EB000DE209F2E88003E8AF8 /* main.m */,
+			);
+			path = SNDBManager;
+			sourceTree = "<group>";
+		};
+		5EB000E7209F2E88003E8AF8 /* SNDBManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB000E8209F2E88003E8AF8 /* SNDBManagerTests.m */,
+				5EB000EA209F2E88003E8AF8 /* Info.plist */,
+			);
+			path = SNDBManagerTests;
+			sourceTree = "<group>";
+		};
+		5EB000F2209F2E88003E8AF8 /* SNDBManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB000F3209F2E88003E8AF8 /* SNDBManagerUITests.m */,
+				5EB000F5209F2E88003E8AF8 /* Info.plist */,
+			);
+			path = SNDBManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB000CB209F2E86003E8AF8 /* SNDBManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB000F8209F2E88003E8AF8 /* Build configuration list for PBXNativeTarget "SNDBManager" */;
+			buildPhases = (
+				5EB000C8209F2E86003E8AF8 /* Sources */,
+				5EB000C9209F2E86003E8AF8 /* Frameworks */,
+				5EB000CA209F2E86003E8AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNDBManager;
+			productName = SNDBManager;
+			productReference = 5EB000CC209F2E86003E8AF8 /* SNDBManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EB000E3209F2E88003E8AF8 /* SNDBManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB000FB209F2E88003E8AF8 /* Build configuration list for PBXNativeTarget "SNDBManagerTests" */;
+			buildPhases = (
+				5EB000E0209F2E88003E8AF8 /* Sources */,
+				5EB000E1209F2E88003E8AF8 /* Frameworks */,
+				5EB000E2209F2E88003E8AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB000E6209F2E88003E8AF8 /* PBXTargetDependency */,
+			);
+			name = SNDBManagerTests;
+			productName = SNDBManagerTests;
+			productReference = 5EB000E4209F2E88003E8AF8 /* SNDBManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EB000EE209F2E88003E8AF8 /* SNDBManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB000FE209F2E88003E8AF8 /* Build configuration list for PBXNativeTarget "SNDBManagerUITests" */;
+			buildPhases = (
+				5EB000EB209F2E88003E8AF8 /* Sources */,
+				5EB000EC209F2E88003E8AF8 /* Frameworks */,
+				5EB000ED209F2E88003E8AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB000F1209F2E88003E8AF8 /* PBXTargetDependency */,
+			);
+			name = SNDBManagerUITests;
+			productName = SNDBManagerUITests;
+			productReference = 5EB000EF209F2E88003E8AF8 /* SNDBManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB000C4209F2E86003E8AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = snloveydus;
+				TargetAttributes = {
+					5EB000CB209F2E86003E8AF8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					5EB000E3209F2E88003E8AF8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5EB000CB209F2E86003E8AF8;
+					};
+					5EB000EE209F2E88003E8AF8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5EB000CB209F2E86003E8AF8;
+					};
+				};
+			};
+			buildConfigurationList = 5EB000C7209F2E86003E8AF8 /* Build configuration list for PBXProject "SNDBManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EB000C3209F2E86003E8AF8;
+			productRefGroup = 5EB000CD209F2E86003E8AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB000CB209F2E86003E8AF8 /* SNDBManager */,
+				5EB000E3209F2E88003E8AF8 /* SNDBManagerTests */,
+				5EB000EE209F2E88003E8AF8 /* SNDBManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB000CA209F2E86003E8AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB000DC209F2E88003E8AF8 /* LaunchScreen.storyboard in Resources */,
+				5EB000D9209F2E88003E8AF8 /* Assets.xcassets in Resources */,
+				5EB000D7209F2E86003E8AF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB000E2209F2E88003E8AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB000ED209F2E88003E8AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB000C8209F2E86003E8AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB000D4209F2E86003E8AF8 /* ViewController.m in Sources */,
+				5EB000DF209F2E88003E8AF8 /* main.m in Sources */,
+				5EB000D1209F2E86003E8AF8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB000E0209F2E88003E8AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB000E9209F2E88003E8AF8 /* SNDBManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB000EB209F2E88003E8AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB000F4209F2E88003E8AF8 /* SNDBManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EB000E6209F2E88003E8AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB000CB209F2E86003E8AF8 /* SNDBManager */;
+			targetProxy = 5EB000E5209F2E88003E8AF8 /* PBXContainerItemProxy */;
+		};
+		5EB000F1209F2E88003E8AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB000CB209F2E86003E8AF8 /* SNDBManager */;
+			targetProxy = 5EB000F0209F2E88003E8AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EB000D5209F2E86003E8AF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB000D6209F2E86003E8AF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EB000DA209F2E88003E8AF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB000DB209F2E88003E8AF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EB000F6209F2E88003E8AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EB000F7209F2E88003E8AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB000F9209F2E88003E8AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNDBManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EB000FA209F2E88003E8AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNDBManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EB000FC209F2E88003E8AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNDBManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNDBManager.app/SNDBManager";
+			};
+			name = Debug;
+		};
+		5EB000FD209F2E88003E8AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNDBManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNDBManager.app/SNDBManager";
+			};
+			name = Release;
+		};
+		5EB000FF209F2E88003E8AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNDBManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNDBManager;
+			};
+			name = Debug;
+		};
+		5EB00100209F2E88003E8AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNDBManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNDBManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB000C7209F2E86003E8AF8 /* Build configuration list for PBXProject "SNDBManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB000F6209F2E88003E8AF8 /* Debug */,
+				5EB000F7209F2E88003E8AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB000F8209F2E88003E8AF8 /* Build configuration list for PBXNativeTarget "SNDBManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB000F9209F2E88003E8AF8 /* Debug */,
+				5EB000FA209F2E88003E8AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB000FB209F2E88003E8AF8 /* Build configuration list for PBXNativeTarget "SNDBManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB000FC209F2E88003E8AF8 /* Debug */,
+				5EB000FD209F2E88003E8AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB000FE209F2E88003E8AF8 /* Build configuration list for PBXNativeTarget "SNDBManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB000FF209F2E88003E8AF8 /* Debug */,
+				5EB00100209F2E88003E8AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB000C4209F2E86003E8AF8 /* Project object */;
+}
