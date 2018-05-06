@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SNDBManager"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Database management, temporarily based on FMDB."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  Database management, temporarily based on FMDB. Easy to operate the database, provided that you need to understand sql syntax
+  Database management, temporarily based on FMDB. Easy to operate the database, provided that you need to understand sql syntax.
                    DESC
 
   s.homepage     = "https://github.com/snlo/SNDBManager"
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # s.license      = "MIT (example)"
+  s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -133,6 +133,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+
   s.dependency 'FMDB/FTS‘
 
 end
