@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		364D2F3700287319F1D87D05 /* libPods-SNDBManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFD83B2F95E6EE33B50CCDD /* libPods-SNDBManagerUITests.a */; };
+		45725ACFFEB12D80230BE6B5 /* libPods-SNDBManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAF7F1F74F2D305F6CD5D88 /* libPods-SNDBManagerTests.a */; };
+		521D76C8C5FA1FF4F605F581 /* libPods-SNDBManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5753FDC5C53102F83817988D /* libPods-SNDBManager.a */; };
 		5EB000D1209F2E86003E8AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000D0209F2E86003E8AF8 /* AppDelegate.m */; };
 		5EB000D4209F2E86003E8AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000D3209F2E86003E8AF8 /* ViewController.m */; };
 		5EB000D7209F2E86003E8AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB000D5209F2E86003E8AF8 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		5EB000DF209F2E88003E8AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000DE209F2E88003E8AF8 /* main.m */; };
 		5EB000E9209F2E88003E8AF8 /* SNDBManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000E8209F2E88003E8AF8 /* SNDBManagerTests.m */; };
 		5EB000F4209F2E88003E8AF8 /* SNDBManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB000F3209F2E88003E8AF8 /* SNDBManagerUITests.m */; };
+		5EB00104209F2F5E003E8AF8 /* SNDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00103209F2F5E003E8AF8 /* SNDBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FAF7F1F74F2D305F6CD5D88 /* libPods-SNDBManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNDBManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D0C6C1F4CE7BC4808D9D90 /* Pods-SNDBManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNDBManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNDBManagerTests/Pods-SNDBManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2648B54B2A6BF951F62C21F4 /* Pods-SNDBManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNDBManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNDBManagerUITests/Pods-SNDBManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51D3E33A5AC66A7CC82F1B69 /* Pods-SNDBManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNDBManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNDBManagerTests/Pods-SNDBManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5753FDC5C53102F83817988D /* libPods-SNDBManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNDBManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB000CC209F2E86003E8AF8 /* SNDBManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNDBManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB000CF209F2E86003E8AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EB000D0209F2E86003E8AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,12 @@
 		5EB000EF209F2E88003E8AF8 /* SNDBManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNDBManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB000F3209F2E88003E8AF8 /* SNDBManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNDBManagerUITests.m; sourceTree = "<group>"; };
 		5EB000F5209F2E88003E8AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB00102209F2F5E003E8AF8 /* SNDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDBManager.h; sourceTree = "<group>"; };
+		5EB00103209F2F5E003E8AF8 /* SNDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNDBManager.m; sourceTree = "<group>"; };
+		B9E02A6C1E8BDE95E79AD1D8 /* Pods-SNDBManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNDBManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNDBManager/Pods-SNDBManager.release.xcconfig"; sourceTree = "<group>"; };
+		D06AC6888C87BD00F0FC6922 /* Pods-SNDBManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNDBManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNDBManagerUITests/Pods-SNDBManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B55A9BA9947C5124481C37 /* Pods-SNDBManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNDBManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNDBManager/Pods-SNDBManager.debug.xcconfig"; sourceTree = "<group>"; };
+		FFFD83B2F95E6EE33B50CCDD /* libPods-SNDBManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNDBManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521D76C8C5FA1FF4F605F581 /* libPods-SNDBManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45725ACFFEB12D80230BE6B5 /* libPods-SNDBManagerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364D2F3700287319F1D87D05 /* libPods-SNDBManagerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				5EB000E7209F2E88003E8AF8 /* SNDBManagerTests */,
 				5EB000F2209F2E88003E8AF8 /* SNDBManagerUITests */,
 				5EB000CD209F2E86003E8AF8 /* Products */,
+				D3A284861F61D6A7A1E2E5B2 /* Pods */,
+				FF6D4771CD9500051B558CF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,7 @@
 				5EB000D0209F2E86003E8AF8 /* AppDelegate.m */,
 				5EB000D2209F2E86003E8AF8 /* ViewController.h */,
 				5EB000D3209F2E86003E8AF8 /* ViewController.m */,
+				5EB00101209F2F24003E8AF8 /* SNDBManager */,
 				5EB000D5209F2E86003E8AF8 /* Main.storyboard */,
 				5EB000D8209F2E88003E8AF8 /* Assets.xcassets */,
 				5EB000DA209F2E88003E8AF8 /* LaunchScreen.storyboard */,
@@ -132,6 +153,38 @@
 			path = SNDBManagerUITests;
 			sourceTree = "<group>";
 		};
+		5EB00101209F2F24003E8AF8 /* SNDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EB00102209F2F5E003E8AF8 /* SNDBManager.h */,
+				5EB00103209F2F5E003E8AF8 /* SNDBManager.m */,
+			);
+			path = SNDBManager;
+			sourceTree = "<group>";
+		};
+		D3A284861F61D6A7A1E2E5B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1B55A9BA9947C5124481C37 /* Pods-SNDBManager.debug.xcconfig */,
+				B9E02A6C1E8BDE95E79AD1D8 /* Pods-SNDBManager.release.xcconfig */,
+				11D0C6C1F4CE7BC4808D9D90 /* Pods-SNDBManagerTests.debug.xcconfig */,
+				51D3E33A5AC66A7CC82F1B69 /* Pods-SNDBManagerTests.release.xcconfig */,
+				D06AC6888C87BD00F0FC6922 /* Pods-SNDBManagerUITests.debug.xcconfig */,
+				2648B54B2A6BF951F62C21F4 /* Pods-SNDBManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF6D4771CD9500051B558CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5753FDC5C53102F83817988D /* libPods-SNDBManager.a */,
+				0FAF7F1F74F2D305F6CD5D88 /* libPods-SNDBManagerTests.a */,
+				FFFD83B2F95E6EE33B50CCDD /* libPods-SNDBManagerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB000F8209F2E88003E8AF8 /* Build configuration list for PBXNativeTarget "SNDBManager" */;
 			buildPhases = (
+				9B96C814F71B664723F127A6 /* [CP] Check Pods Manifest.lock */,
 				5EB000C8209F2E86003E8AF8 /* Sources */,
 				5EB000C9209F2E86003E8AF8 /* Frameworks */,
 				5EB000CA209F2E86003E8AF8 /* Resources */,
@@ -156,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB000FB209F2E88003E8AF8 /* Build configuration list for PBXNativeTarget "SNDBManagerTests" */;
 			buildPhases = (
+				1EF2097EF6B8C7A841076220 /* [CP] Check Pods Manifest.lock */,
 				5EB000E0209F2E88003E8AF8 /* Sources */,
 				5EB000E1209F2E88003E8AF8 /* Frameworks */,
 				5EB000E2209F2E88003E8AF8 /* Resources */,
@@ -174,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB000FE209F2E88003E8AF8 /* Build configuration list for PBXNativeTarget "SNDBManagerUITests" */;
 			buildPhases = (
+				D9B84842BA1E492E4DC6BFD6 /* [CP] Check Pods Manifest.lock */,
 				5EB000EB209F2E88003E8AF8 /* Sources */,
 				5EB000EC209F2E88003E8AF8 /* Frameworks */,
 				5EB000ED209F2E88003E8AF8 /* Resources */,
@@ -257,6 +313,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EF2097EF6B8C7A841076220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNDBManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B96C814F71B664723F127A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNDBManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B84842BA1E492E4DC6BFD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNDBManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EB000C8209F2E86003E8AF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +377,7 @@
 			files = (
 				5EB000D4209F2E86003E8AF8 /* ViewController.m in Sources */,
 				5EB000DF209F2E88003E8AF8 /* main.m in Sources */,
+				5EB00104209F2F5E003E8AF8 /* SNDBManager.m in Sources */,
 				5EB000D1209F2E86003E8AF8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,14 +545,12 @@
 		};
 		5EB000F9209F2E88003E8AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B55A9BA9947C5124481C37 /* Pods-SNDBManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNDBManager/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,14 +559,12 @@
 		};
 		5EB000FA209F2E88003E8AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E02A6C1E8BDE95E79AD1D8 /* Pods-SNDBManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNDBManager/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,15 +573,12 @@
 		};
 		5EB000FC209F2E88003E8AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0C6C1F4CE7BC4808D9D90 /* Pods-SNDBManagerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNDBManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,15 +588,12 @@
 		};
 		5EB000FD209F2E88003E8AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D3E33A5AC66A7CC82F1B69 /* Pods-SNDBManagerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNDBManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,14 +603,11 @@
 		};
 		5EB000FF209F2E88003E8AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06AC6888C87BD00F0FC6922 /* Pods-SNDBManagerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNDBManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,14 +617,11 @@
 		};
 		5EB00100209F2E88003E8AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2648B54B2A6BF951F62C21F4 /* Pods-SNDBManagerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNDBManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNDBManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
